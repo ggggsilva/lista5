@@ -11,59 +11,71 @@
     <form action="cadastro_agenda.php"
      method="post" enctype="multipart/form-data">
   
-        <div>
-    <label for="nome">Nome</label>
-    <input type="text" name="nome" id="nome">
+    <label class="nome">
+      <label for="nome">Nome</label>
+      <input type="text" class="nome" id="nome" placeholder="nome">
   </div>
   
   <div>
-    <label for="apelido">Apelido</label>
-    <input type="text" name="apelido" id="apelido">
+    <label class="apelido">
+      <label for="apelido">Apelido</label>
+      <input type="text" class="apelido" id="apelido" placeholder="apelido">
   </div>
+  
  
   <div>
-    <label for="endereco">Endereco</label>
-    <input type="text" name="endereco" id="endereco">
+    <label class="endereco">
+      <label for="endereco">Endereco</label>
+      <input type="text" class="endereco" id="endereco" placeholder="endereco">
   </div>
   
+  
   <div>
-    <label for="bairro">Bairro</label>
-    <input type="text" name="bairro" id="bairro">
+    <label class="bairro">
+      <label for="bairro">Bairro</label>
+      <input type="text" class="bairro" id="bairro" placeholder="bairro">
   </div>
+  
  
   <div>
-    <label for="cidade">Cidade</label>
-    <input type="text" name="cidade" id="cidade">
+    <label class="cidade">
+      <label for="cidade">Cidade</label>
+      <input type="text" class="cidade" id="cidade" placeholder="cidade">
   </div>
   
   <div>
-    <label for="estado">Estado</label>
-    <input type="text" name="estado" id="estado">
+    <label class="estado">
+      <label for="estado">Estado</label>
+      <input type="text" class="estado" id="estado" placeholder="estado">
   </div>
   
   <div>
+    <label class="fone">
     <label for="fone">Telefone</label>
     <!-- (18)99999-8888 ou (18)99999-9999 -->
-      <input type="text" name="fone" id="fone" 
-      pattern="\([0-9]{2}\)([9]{1})?[0-9]{4}-[0-9]{4}">
-    
+      <input type="text" name="fone" id="fone" placeholder="(18)99999-8888">
+     
   </div>
 
 
   <div>
+    <label class="cel"></label>
     <label for="cel">Celular</label>
     <!-- (18)99999-8888 ou (18)99999-9999 -->
-      <input type="text" name="cel" id="cel" 
-      pattern="\([0-9]{2}\)([9]{1})?[0-9]{4}-[0-9]{4}">
+      <input type="text" name="cel" id="cel" placeholder="(18)99999-8888">
+     
+      
     
   </div>
-
+  
   <div>
+    <label class="email"></label>
     <label for="email">E-mail</label>
-    <input type="text" name="email" id="email">
+    <input type="text" name="email" id="email" placeholder="@email.com">
   </div>
   <div>
   
+
 <div>
   <label for="dt_cadastro">dt_cadastro</label>
   <input type="date" name="dt_cadastro" id="dt_cadastro">
